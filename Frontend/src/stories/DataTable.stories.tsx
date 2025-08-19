@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-import { DataTable } from "../assets/Component/table";
+import { DataTable } from "../Component/table";
 import '../index.css'
 import { action } from "storybook/actions";
 

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { action } from "storybook/actions";
-import InputField from "../assets/Component/inputfield";
+import InputField from "../Component/inputfield";
 import "../index.css";
 import { useState } from "react";
 const meta = {
