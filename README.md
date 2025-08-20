@@ -1,6 +1,7 @@
 # 📌 Assignment - UI Components
 
 This repository contains the assignment submission for reusable UI components built with **React**, **TailwindCSS**, and **Storybook**.
+[View Storybook Datatable](https://68a4ad831b959d101297676c-bcipuejtbw.chromatic.com/?path=/story/components-datatable--default)
 
 ---
 
