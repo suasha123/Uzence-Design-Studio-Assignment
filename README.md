@@ -26,12 +26,11 @@ assignment
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/assignment.git
-cd assignment/frontend
+git clone https://github.com/suasha123/Uzence-Design-Studio-Assignment
+cd Assignment/Frontend
 npm install
 
 Run the development server:
-
 npm run dev
 
 
@@ -40,7 +39,7 @@ To run Storybook locally:
 npm run storybook
 
 🔗 Deployed Storybook Preview (Chromatic):
-👉 Live Storybook Link
+👉 <a>https://68a4ad831b959d101297676c-bcipuejtbw.chromatic.com/</a>
 
 
 
