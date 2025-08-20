@@ -1,12 +1,10 @@
 # 📌 Assignment - UI Components
 
 This repository contains the assignment submission for reusable UI components built with **React**, **TailwindCSS**, and **Storybook**.
-[View Storybook Datatable](https://68a4ad831b959d101297676c-bcipuejtbw.chromatic.com/?path=/story/components-datatable--default)
-
 ---
 
 ## 📂 Folder Structure
-
+```
 assignment
 └─ frontend
    ├─ src
@@ -20,7 +18,7 @@ assignment
    ├─ package.json
    └─ vite.config.ts
 
-
+```
 
 ## ⚡ Installation & Setup
 
@@ -34,14 +32,13 @@ npm install
 Run the development server:
 npm run dev
 
-
+```
 📖 Storybook
 To run Storybook locally:
 npm run storybook
 
 🔗 Deployed Storybook Preview (Chromatic):
-Deployed Storybook Preview
-
+[View Storybook Datatable](https://68a4ad831b959d101297676c-bcipuejtbw.chromatic.com/?path=/story/components-datatable--default)
 
 
 🎨 Components Overview
