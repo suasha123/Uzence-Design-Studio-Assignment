@@ -52,18 +52,22 @@ npm run storybook
 
 Example usage:
 
+```
 <InputField label="Email" placeholder="Enter your email" variant="outlined" helperText="We will not share your email." />
+```
 
 
 2. DataTable
 
 * Simple demo table with mock data.
 
-* Supports column headers and rows rendering.
+* onRowClick event : when clicked on the row consoles the the data of the row selected .
+
 
 Example usage:
-
+```
 <DataTable data={[{ name: "John", age: 25, email: "john@example.com" }]} />
+```
 
 
 📝 Approach
