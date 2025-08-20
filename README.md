@@ -63,6 +63,8 @@ Example usage:
 
 * onRowClick event : when clicked on the row consoles the the data of the row selected .
 
+* Column sorting : tapping on heading <th> sorts the data in ascending / descending order .
+
 
 Example usage:
 ```
