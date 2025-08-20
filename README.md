@@ -34,7 +34,9 @@ npm run dev
 
 ```
 📖 Storybook
+
 To run Storybook locally:
+
 npm run storybook
 
 🔗 Deployed Storybook Preview (Chromatic):
@@ -50,12 +52,7 @@ npm run storybook
 
 Example usage:
 
-<InputField 
-  label="Email" 
-  placeholder="Enter your email" 
-  variant="outlined" 
-  helperText="We will not share your email." 
-/>
+<InputField label="Email" placeholder="Enter your email" variant="outlined" helperText="We will not share your email." />
 
 
 2. DataTable
