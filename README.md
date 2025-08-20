@@ -6,20 +6,7 @@ This repository contains the assignment submission for reusable UI components bu
 
 ## 📂 Folder Structure
 
-assignment/
- └── frontend/              # React + Vite + Tailwind project
-     ├── src/
-     │   ├── assets/
-     │   ├── components/    # Reusable UI components
-     │   ├── stories/       # Storybook stories
-     │   ├── App.tsx
-     │   ├── app.css
-     │   ├── index.css
-     │   └── main.tsx
-     ├── package.json
-     ├── package-lock.json
-     └── ...
- ├── README.md
+<pre> ```bash assignment/ └── frontend/ # React + Vite + Tailwind project ├── src/ │ ├── assets/ │ ├── components/ # Reusable UI components │ ├── stories/ # Storybook stories │ ├── App.tsx │ ├── app.css │ ├── index.css │ └── main.tsx ├── package.json ├── package-lock.json └── ... └── README.md ``` </pre>
 
 
 ## ⚡ Installation & Setup
