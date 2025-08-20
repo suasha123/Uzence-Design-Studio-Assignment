@@ -39,7 +39,7 @@ To run Storybook locally:
 npm run storybook
 
 🔗 Deployed Storybook Preview (Chromatic):
-👉 <a>https://68a4ad831b959d101297676c-bcipuejtbw.chromatic.com/</a>
+👉 [Deployed Storybook Preview](https://68a4ad831b959d101297676c-bcipuejtbw.chromatic.com/)
 
 
 
