@@ -1,4 +1,3 @@
-import React from "react";
 
 interface InputFieldProps {
   value?: string;
@@ -11,7 +10,7 @@ interface InputFieldProps {
   invalid?: boolean;
   variant?: "filled" | "outlined" | "ghost";
   size?: "sm" | "md" | "lg";
-  loading?: boolean; // NEW
+  loading?: boolean; 
 }
 
 function InputField(props: InputFieldProps) {
@@ -26,7 +25,7 @@ function InputField(props: InputFieldProps) {
     invalid,
     variant = "outlined",
     size = "md",
-    loading = false, // NEW
+    loading = false, 
   } = props;
 
   const sizeClasses =

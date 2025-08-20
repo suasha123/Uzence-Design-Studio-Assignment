@@ -27,7 +27,7 @@ export function DataTable<T>({
     direction: "asc" | "desc";
   } | null>(null);
 
-  // Handle row selection
+
   const handleRowClick = (row: T) => {
     if (!selectable) return;
     let newSelection: T[];
@@ -40,7 +40,6 @@ export function DataTable<T>({
     onRowSelect?.(newSelection);
   };
 
-  // Handle column sorting
   const handleSort = (col: Column<T>) => {
     if (!col.sortable) return;
     let direction: "asc" | "desc" = "asc";
@@ -50,7 +49,7 @@ export function DataTable<T>({
     setSortOrder({ key: col.dataIndex, direction });
   };
 
-  // Sort data if sortConfig is set
+
   let sortedData = [...data];
   if (sortOrder) {
     sortedData.sort((a, b) => {
@@ -65,7 +64,6 @@ export function DataTable<T>({
     });
   }
 
-  // Loading and empty states
   if (loading) {
   return (
     <div className="flex justify-center items-center py-10 gap-4">
