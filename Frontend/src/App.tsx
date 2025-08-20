@@ -1,12 +1,7 @@
 import { useState } from 'react'
-import InputField from './assets/Component/inputfield'
-import { DataTable } from './assets/Component/table'
+import InputField from '../src/Component/inputfield';
+import { DataTable } from '../src/Component/table';
 
-interface User {
-  name: string
-  age: number
-  email: string
-}
 
 function App() {
   const [inputVal, setInputVal] = useState("");
